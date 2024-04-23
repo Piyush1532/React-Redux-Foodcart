@@ -1,0 +1,460 @@
+{
+  "cart":[],
+  "categories": [
+    {"name":"Vegetarian"},
+    {"name":"Starter"},
+    {"name":"NonVeg"},
+    {"name":"Dessert"}],
+  "foodData": [
+    {
+      "id": 1,
+      "foodName": "Vegetable Biryani",
+      "type": "Vegetarian",
+      "price": 200,
+      "quantity": 0,
+      "description": "Fragrant rice cooked with mixed vegetables and spices.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBBuXULpx2XGpSON72zsFYKhWT1uh2U033459CegKfw&s"
+    },
+    {
+      "id": 2,
+      "foodName": "Paneer Tikka",
+      "type": "Starter",
+      "price": 150,
+      "quantity": 0,
+      "description": "Chunks of paneer marinated in spices and grilled to perfection.",
+      "image": "https://example.com/paneer_tikka.jpg"
+    },
+    {
+      "id": 3,
+      "foodName": "Masala Dosa",
+      "type": "Vegetarian",
+      "price": 120,
+      "quantity": 0,
+      "description": "Crispy rice crepe filled with spiced potato filling, served with chutney and sambar.",
+      "image": "https://example.com/masala_dosa.jpg"
+    },
+    {
+      "id": 4,
+      "foodName": "Aloo Gobi",
+      "type": "Vegetarian",
+      "price": 160,
+      "quantity": 0,
+      "description": "Stir-fried potatoes and cauliflower with spices.",
+      "image": "https://example.com/aloo_gobi.jpg"
+    },
+    {
+      "id": 5,
+      "foodName": "Chana Masala",
+      "type": "Vegetarian",
+      "price": 170,
+      "quantity": 0,
+      "description": "Spicy chickpea curry with onions and tomatoes.",
+      "image": "https://example.com/chana_masala.jpg"
+    },
+    {
+      "id": 6,
+      "foodName": "Samosa",
+      "type": "Starter",
+      "price": 80,
+      "quantity": 0,
+      "description": "Crispy pastry filled with spiced potatoes and peas.",
+      "image": "https://example.com/samosa.jpg"
+    },
+    {
+      "id": 7,
+      "foodName": "Chicken Tikka",
+      "type": "Starter",
+      "price": 200,
+      "quantity": 0,
+      "description": "Chunks of chicken marinated in spices and grilled to perfection.",
+      "image": "https://example.com/chicken_tikka.jpg"
+    },
+    {
+      "id": 8,
+      "foodName": "Fish Curry",
+      "type": "NonVeg",
+      "price": 300,
+      "quantity": 0,
+      "description": "Fish cooked in a spicy coconut milk gravy.",
+      "image": "https://example.com/fish_curry.jpg"
+    },
+    {
+      "id": 9,
+      "foodName": "Mutton Rogan Josh",
+      "type": "NonVeg",
+      "price": 320,
+      "quantity": 0,
+      "description": "Tender mutton cooked in a rich, aromatic gravy.",
+      "image": "https://example.com/mutton_rogan_josh.jpg"
+    },
+    {
+      "id": 10,
+      "foodName": "Chicken Biryani",
+      "type": "NonVeg",
+      "price": 280,
+      "quantity": 0,
+      "description": "Fragrant rice cooked with tender chicken and spices.",
+      "image": "https://myfoodstory.com/wp-content/uploads/2018/09/The-Best-Chicken-Biryani-Recipe-3.jpg"
+    },
+    {
+      "id": 11,
+      "foodName": "Gulab Jamun",
+      "type": "Dessert",
+      "price": 80,
+      "quantity": 0,
+      "description": "Deep-fried dumplings made of milk solids, soaked in sugar syrup.",
+      "image": "https://example.com/gulab_jamun.jpg"
+    },
+    {
+      "id": 12,
+      "foodName": "Rasgulla",
+      "type": "Dessert",
+      "price": 100,
+      "quantity": 0,
+      "description": "Soft, spongy balls of cottage cheese in sugar syrup.",
+      "image": "https://example.com/rasgulla.jpg"
+    },
+    {
+      "id": 13,
+      "foodName": "Kaju Katli",
+      "type": "Dessert",
+      "price": 120,
+      "quantity": 0,
+      "description": "Fudge made of cashews, sugar, and ghee.",
+      "image": "https://example.com/kaju_katli.jpg"
+    },
+    {
+      "id": 14,
+      "foodName": "Rajma",
+      "type": "Vegetarian",
+      "price": 150,
+      "quantity": 0,
+      "description": "Red kidney beans cooked in a thick tomato-based gravy.",
+      "image": "https://example.com/rajma.jpg"
+    },
+    {
+      "id": 15,
+      "foodName": "Palak Paneer",
+      "type": "Vegetarian",
+      "price": 180,
+      "quantity": 0,
+      "description": "Paneer cubes cooked in a creamy spinach gravy.",
+      "image": "https://example.com/palak_paneer.jpg"
+    },
+    {
+      "id": 16,
+      "foodName": "Pani Puri",
+      "type": "Starter",
+      "price": 100,
+      "quantity": 0,
+      "description": "Crispy hollow balls filled with spicy tamarind water, chickpeas, and potatoes.",
+      "image": "https://example.com/pani_puri.jpg"
+    },
+    {
+      "id": 17,
+      "foodName": "Butter Chicken",
+      "type": "NonVeg",
+      "price": 250,
+      "quantity": 0,
+      "description": "Tender chicken cooked in a rich, creamy tomato-based sauce.",
+      "image": "https://example.com/butter_chicken.jpg"
+    },
+    {
+      "id": 18,
+      "foodName": "Dal Makhani",
+      "type": "Vegetarian",
+      "price": 200,
+      "quantity": 0,
+      "description": "Creamy lentil curry made with butter and cream.",
+      "image": "https://example.com/dal_makhani.jpg"
+    },
+    {
+      "id": 19,
+      "foodName": "Chicken Curry",
+      "type": "NonVeg",
+      "price": 220,
+      "quantity": 0,
+      "description": "Spicy chicken curry with aromatic spices.",
+      "image": "https://example.com/chicken_curry.jpg"
+    },
+    {
+      "id": 20,
+      "foodName": "Chole Bhature",
+      "type": "Vegetarian",
+      "price": 150,
+      "quantity": 0,
+      "description": "Spicy chickpea curry served with fried bread.",
+      "image": "https://example.com/chole_bhature.jpg"
+    },
+    {
+      "id": 21,
+      "foodName": "Veggie Pizza",
+      "type": "Vegetarian",
+      "price": 220,
+      "quantity": 0,
+      "description": "Pizza topped with assorted vegetables and cheese.",
+      "image": "https://example.com/veggie_pizza.jpg"
+    },
+    {
+      "id": 22,
+      "foodName": "Onion Rings",
+      "type": "Starter",
+      "price": 100,
+      "quantity": 0,
+      "description": "Deep-fried battered onion rings.",
+      "image": "https://example.com/onion_rings.jpg"
+    },
+    {
+      "id": 23,
+      "foodName": "Chicken Wings",
+      "type": "Starter",
+      "price": 180,
+      "quantity": 0,
+      "description": "Crispy fried chicken wings tossed in sauce.",
+      "image": "https://example.com/chicken_wings.jpg"
+    },
+    {
+      "id": 24,
+      "foodName": "Mushroom Risotto",
+      "type": "Vegetarian",
+      "price": 190,
+      "quantity": 0,
+      "description": "Creamy risotto rice cooked with mushrooms and parmesan cheese.",
+      "image": "https://example.com/mushroom_risotto.jpg"
+    },
+    {
+      "id": 25,
+      "foodName": "Shrimp Scampi",
+      "type": "NonVeg",
+      "price": 350,
+      "quantity": 0,
+      "description": "Shrimp cooked in garlic butter sauce with white wine and lemon juice.",
+      "image": "https://example.com/shrimp_scampi.jpg"
+    },
+    {
+      "id": 26,
+      "foodName": "Pav Bhaji",
+      "type": "Vegetarian",
+      "price": 130,
+      "quantity": 0,
+      "description": "Mixed vegetable curry served with buttered bread rolls.",
+      "image": "https://example.com/pav_bhaji.jpg"
+    },
+    {
+      "id": 27,
+      "foodName": "Spring Rolls",
+      "type": "Starter",
+      "price": 130,
+      "quantity": 0,
+      "description": "Crispy fried rolls filled with vegetables or meat.",
+      "image": "https://example.com/spring_rolls.jpg"
+    },
+    {
+      "id": 28,
+      "foodName": "Chicken Shawarma",
+      "type": "NonVeg",
+      "price": 250,
+      "quantity": 0,
+      "description": "Grilled chicken wrapped in pita bread with tahini sauce.",
+      "image": "https://example.com/chicken_shawarma.jpg"
+    },
+    {
+      "id": 29,
+      "foodName": "Gajar Halwa",
+      "type": "Dessert",
+      "price": 120,
+      "quantity": 0,
+      "description": "Sweet carrot pudding cooked with milk and sugar.",
+      "image": "https://example.com/gajar_halwa.jpg"
+    },
+    {
+      "id": 30,
+      "foodName": "Malai Kofta",
+      "type": "Vegetarian",
+      "price": 180,
+      "quantity": 0,
+      "description": "Fried potato and paneer balls cooked in a creamy tomato-based gravy.",
+      "image": "https://example.com/malai_kofta.jpg"
+    },
+    {
+      "id": 31,
+      "foodName": "Chicken Curry",
+      "type": "NonVeg",
+      "price": 220,
+      "quantity": 0,
+      "description": "Spicy chicken curry with aromatic spices.",
+      "image": "https://example.com/chicken_curry.jpg"
+    },
+    {
+      "id": 32,
+      "foodName": "Veg Manchurian",
+      "type": "Vegetarian",
+      "price": 160,
+      "quantity": 0,
+      "description": "Vegetable balls in tangy Chinese sauce.",
+      "image": "https://example.com/veg_manchurian.jpg"
+    },
+    {
+      "id": 33,
+      "foodName": "Chicken 65",
+      "type": "Starter",
+      "price": 220,
+      "quantity": 0,
+      "description": "Spicy, deep-fried chicken appetizer.",
+      "image": "https://example.com/chicken_65.jpg"
+    },
+    {
+      "id": 34,
+      "foodName": "Puliyodarai",
+      "type": "Vegetarian",
+      "price": 150,
+      "quantity": 0,
+      "description": "Tamarind rice flavored with spices and peanuts.",
+      "image": "https://example.com/puliyodarai.jpg"
+    },
+    {
+      "id": 35,
+      "foodName": "Hyderabadi Biryani",
+      "type": "NonVeg",
+      "price": 300,
+      "quantity": 0,
+      "description": "Fragrant rice cooked with tender meat and aromatic spices.",
+      "image": "https://example.com/hyderabadi_biryani.jpg"
+    },
+    {
+      "id": 36,
+      "foodName": "Rava Dosa",
+      "type": "Vegetarian",
+      "price": 130,
+      "quantity": 0,
+      "description": "Crispy semolina crepe served with chutney and sambar.",
+      "image": "https://example.com/rava_dosa.jpg"
+    },
+    {
+      "id": 37,
+      "foodName": "Chicken Pakora",
+      "type": "Starter",
+      "price": 180,
+      "quantity": 0,
+      "description": "Deep-fried chicken fritters marinated in spices.",
+      "image": "https://example.com/chicken_pakora.jpg"
+    },
+    {
+      "id": 38,
+      "foodName": "Aloo Paratha",
+      "type": "Vegetarian",
+      "price": 100,
+      "quantity": 0,
+      "description": "Whole wheat bread stuffed with spiced mashed potatoes.",
+      "image": "https://example.com/aloo_paratha.jpg"
+    },
+    {
+      "id": 39,
+      "foodName": "Tandoori Chicken",
+      "type": "Starter",
+      "price": 250,
+      "quantity": 0,
+      "description": "Spiced chicken marinated in yogurt and grilled in a tandoor oven.",
+      "image": "https://example.com/tandoori_chicken.jpg"
+    },
+    {
+      "id": 40,
+      "foodName": "Prawn Curry",
+      "type": "NonVeg",
+      "price": 320,
+      "quantity": 0,
+      "description": "Prawns cooked in a spicy coconut milk gravy.",
+      "image": "https://example.com/prawn_curry.jpg"
+    },
+    {
+      "id": 41,
+      "foodName": "Kheer",
+      "type": "Dessert",
+      "price": 90,
+      "quantity": 0,
+      "description": "Rice pudding cooked with milk and sugar, flavored with cardamom and saffron.",
+      "image": "https://example.com/kheer.jpg"
+    },
+    {
+      "id": 42,
+      "foodName": "Matar Paneer",
+      "type": "Vegetarian",
+      "price": 180,
+      "quantity": 0,
+      "description": "Paneer and peas cooked in a creamy tomato-based gravy.",
+      "image": "https://example.com/matar_paneer.jpg"
+    },
+    {
+      "id": 43,
+      "foodName": "Chicken Korma",
+      "type": "NonVeg",
+      "price": 280,
+      "quantity": 0,
+      "description": "Chicken cooked in a rich, creamy sauce with nuts and spices.",
+      "image": "https://example.com/chicken_korma.jpg"
+    },
+    {
+      "id": 44,
+      "foodName": "Rasmalai",
+      "type": "Dessert",
+      "price": 100,
+      "quantity": 0,
+      "description": "Soft, spongy balls of cottage cheese soaked in sweetened milk.",
+      "image": "https://example.com/rasmalai.jpg"
+    },
+    {
+      "id": 45,
+      "foodName": "Vegetable Cutlet",
+      "type": "Starter",
+      "price": 100,
+      "quantity": 0,
+      "description": "Mixed vegetable patties coated with breadcrumbs and fried.",
+      "image": "https://example.com/vegetable_cutlet.jpg"
+    },
+    {
+      "id": 46,
+      "foodName": "Chicken Pulao",
+      "type": "NonVeg",
+      "price": 250,
+      "quantity": 0,
+      "description": "Fragrant rice cooked with chicken and aromatic spices.",
+      "image": "https://example.com/chicken_pulao.jpg"
+    },
+    {
+      "id": 47,
+      "foodName": "Fruit Custard",
+      "type": "Dessert",
+      "price": 120,
+      "quantity": 0,
+      "description": "Mixed fruit salad served with creamy custard.",
+      "image": "https://example.com/fruit_custard.jpg"
+    },
+    {
+      "id": 48,
+      "foodName": "Vegetable Hakka Noodles",
+      "type": "Vegetarian",
+      "price": 160,
+      "quantity": 0,
+      "description": "Stir-fried noodles with mixed vegetables in Hakka style.",
+      "image": "https://example.com/vegetable_hakka_noodles.jpg"
+    },
+    {
+      "id": 49,
+      "foodName": "Chicken Tandoori Pizza",
+      "type": "NonVeg",
+      "price": 280,
+      "quantity": 0,
+      "description": "Pizza topped with tandoori chicken, onions, and bell peppers.",
+      "image": "https://example.com/chicken_tandoori_pizza.jpg"
+    },
+    {
+      "id": 50,
+      "foodName": "Gulab Jamun Ice Cream",
+      "type": "Dessert",
+      "price": 150,
+      "quantity": 0,
+      "description": "Creamy vanilla ice cream with pieces of gulab jamun.",
+      "image": "https://example.com/gulab_jamun_ice_cream.jpg"
+    }
+  ]
+}
