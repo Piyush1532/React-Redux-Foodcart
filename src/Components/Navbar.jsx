@@ -10,6 +10,16 @@ const Navbar = () => {
 
   let { categories } = useSelector((state) => state.Food);
 
+  
+  useEffect(()=>{
+    if (categories.length === 0) {
+
+      getFoodCategories()
+    }
+    
+  },[])
+
+
   let getFoodCategories = async () => {
     try {
       let url = `http://localhost:2221/categories`;
@@ -25,9 +35,6 @@ const Navbar = () => {
   };
 
 
-  useEffect(()=>{
-    if (categories.length === 0) getFoodCategories()
-  },[])
   return (
     <div>
 
