@@ -22,7 +22,7 @@
       "price": 150,
       "quantity": 0,
       "description": "Chunks of paneer marinated in spices and grilled to perfection.",
-      "image": "https://example.com/paneer_tikka.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQ-cVXnvYghSv1rp23Qrt_Jm5IHnGzCk9aN9WIEETDQ&s"
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "price": 120,
       "quantity": 0,
       "description": "Crispy rice crepe filled with spiced potato filling, served with chutney and sambar.",
-      "image": "https://example.com/masala_dosa.jpg"
+      "image": "https://static01.nyt.com/images/2015/01/28/dining/28KITCHEN1/28KITCHEN1-superJumbo.jpg"
     },
     {
       "id": 4,
@@ -40,7 +40,7 @@
       "price": 160,
       "quantity": 0,
       "description": "Stir-fried potatoes and cauliflower with spices.",
-      "image": "https://example.com/aloo_gobi.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC5Im2OtB35hwzLpK6XqeDypQTFkOes_1guVV42XaCQ&s"
     },
     {
       "id": 5,
@@ -49,7 +49,7 @@
       "price": 170,
       "quantity": 0,
       "description": "Spicy chickpea curry with onions and tomatoes.",
-      "image": "https://example.com/chana_masala.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0j3Oa5GqmWYVcuAKu6xPMMrFFFtFvjfJx2Dn7FAE4yQ&s"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "price": 80,
       "quantity": 0,
       "description": "Crispy pastry filled with spiced potatoes and peas.",
-      "image": "https://example.com/samosa.jpg"
+      "image": "https://c.ndtvimg.com/2023-03/0m65kep_samosa_625x300_10_March_23.jpg"
     },
     {
       "id": 7,
@@ -67,7 +67,7 @@
       "price": 200,
       "quantity": 0,
       "description": "Chunks of chicken marinated in spices and grilled to perfection.",
-      "image": "https://example.com/chicken_tikka.jpg"
+      "image": "https://live.staticflickr.com/3/2809/33354707111_28840a00d1_b.jpg"
     },
     {
       "id": 8,
@@ -76,7 +76,7 @@
       "price": 300,
       "quantity": 0,
       "description": "Fish cooked in a spicy coconut milk gravy.",
-      "image": "https://example.com/fish_curry.jpg"
+      "image": "https://img.onmanorama.com/content/dam/mm/en/food/around-the-world/images/2019/11/25/goan-fish-curry.jpg"
     },
     {
       "id": 9,
@@ -85,7 +85,7 @@
       "price": 320,
       "quantity": 0,
       "description": "Tender mutton cooked in a rich, aromatic gravy.",
-      "image": "https://example.com/mutton_rogan_josh.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9r5x3wPFniNEyg--z41uvd240XD3MQZXlG5pqOoU94g&s"
     },
     {
       "id": 10,
@@ -94,7 +94,7 @@
       "price": 280,
       "quantity": 0,
       "description": "Fragrant rice cooked with tender chicken and spices.",
-      "image": "https://myfoodstory.com/wp-content/uploads/2018/09/The-Best-Chicken-Biryani-Recipe-3.jpg"
+      "image": "https://www.kilobiryani.co.uk/wp-content/uploads/2015/11/Chk-Biryani-1.jpg"
     },
     {
       "id": 11,
@@ -103,7 +103,7 @@
       "price": 80,
       "quantity": 0,
       "description": "Deep-fried dumplings made of milk solids, soaked in sugar syrup.",
-      "image": "https://example.com/gulab_jamun.jpg"
+      "image": "https://www.yummytummyaarthi.com/wp-content/uploads/2022/02/IMG_3682-scaled.jpg"
     },
     {
       "id": 12,
@@ -112,7 +112,7 @@
       "price": 100,
       "quantity": 0,
       "description": "Soft, spongy balls of cottage cheese in sugar syrup.",
-      "image": "https://example.com/rasgulla.jpg"
+      "image": "https://www.thespruceeats.com/thmb/LRHVkNnPFRGjN5LixQWD1C9Pnjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rasgulla-indian-dessert-1957839-hero-01-7c3528a2d34a4f1b9248c7483a73d0a6.jpg"
     },
     {
       "id": 13,
@@ -121,7 +121,7 @@
       "price": 120,
       "quantity": 0,
       "description": "Fudge made of cashews, sugar, and ghee.",
-      "image": "https://example.com/kaju_katli.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxcz7ReakacqTDtkBCg7h7feeXdzs6DSL8kB0s_FThNQ&s"
     },
     {
       "id": 14,
@@ -130,7 +130,7 @@
       "price": 150,
       "quantity": 0,
       "description": "Red kidney beans cooked in a thick tomato-based gravy.",
-      "image": "https://example.com/rajma.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl6eukKx0ETlD-8J6AvVWXeSZR06KRpuxN30T66aWthA&s"
     },
     {
       "id": 15,
@@ -139,7 +139,7 @@
       "price": 180,
       "quantity": 0,
       "description": "Paneer cubes cooked in a creamy spinach gravy.",
-      "image": "https://example.com/palak_paneer.jpg"
+      "image": "https://www.seriouseats.com/thmb/lhYY8CqBJoDwxj57KFAiY9pORhI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220629-PalakPaneer-Amanda-Suarez-hero-a2fdf0f3ff5141dfbf44d3977678c578.JPG"
     },
     {
       "id": 16,
@@ -148,7 +148,7 @@
       "price": 100,
       "quantity": 0,
       "description": "Crispy hollow balls filled with spicy tamarind water, chickpeas, and potatoes.",
-      "image": "https://example.com/pani_puri.jpg"
+      "image": "https://static01.nyt.com/images/2024/01/17/multimedia/ND-Pani-Puri-mflg/ND-Pani-Puri-mflg-master768.jpg?width=1280&quality=75&auto=webp"
     },
     {
       "id": 17,
@@ -157,7 +157,7 @@
       "price": 250,
       "quantity": 0,
       "description": "Tender chicken cooked in a rich, creamy tomato-based sauce.",
-      "image": "https://example.com/butter_chicken.jpg"
+      "image": "https://images.sbs.com.au/dims4/default/e705f54/2147483647/strip/true/crop/5556x3125+0+140/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2F99%2F41%2Fc115d56742dcaa822a1d61d5ed61%2Fgettyimages-1277362334.jpg"
     },
     {
       "id": 18,
@@ -166,7 +166,7 @@
       "price": 200,
       "quantity": 0,
       "description": "Creamy lentil curry made with butter and cream.",
-      "image": "https://example.com/dal_makhani.jpg"
+      "image": "https://recipes.timesofindia.com/thumb/53097626.cms?width=1200&height=900"
     },
     {
       "id": 19,
@@ -175,7 +175,7 @@
       "price": 220,
       "quantity": 0,
       "description": "Spicy chicken curry with aromatic spices.",
-      "image": "https://example.com/chicken_curry.jpg"
+      "image": "https://www.foodandwine.com/thmb/8YAIANQTZnGpVWj2XgY0dYH1V4I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spicy-chicken-curry-FT-RECIPE0321-58f84fdf7b484e7f86894203eb7834e7.jpg"
     },
     {
       "id": 20,
@@ -184,7 +184,7 @@
       "price": 150,
       "quantity": 0,
       "description": "Spicy chickpea curry served with fried bread.",
-      "image": "https://example.com/chole_bhature.jpg"
+      "image": "https://media.vogue.in/wp-content/uploads/2020/08/chole-bhature-recipe.jpg"
     },
     {
       "id": 21,
@@ -193,7 +193,7 @@
       "price": 220,
       "quantity": 0,
       "description": "Pizza topped with assorted vegetables and cheese.",
-      "image": "https://example.com/veggie_pizza.jpg"
+      "image": "https://i0.wp.com/www.thursdaynightpizza.com/wp-content/uploads/2022/06/veggie-pizza-side-view-out-of-oven.png?resize=720%2C480&ssl=1"
     },
     {
       "id": 22,
@@ -202,7 +202,7 @@
       "price": 100,
       "quantity": 0,
       "description": "Deep-fried battered onion rings.",
-      "image": "https://example.com/onion_rings.jpg"
+      "image": "https://static01.nyt.com/images/2020/04/22/dining/ejm-sourdough-03/ejm-sourdough-03-superJumbo.jpg"
     },
     {
       "id": 23,
@@ -211,7 +211,7 @@
       "price": 180,
       "quantity": 0,
       "description": "Crispy fried chicken wings tossed in sauce.",
-      "image": "https://example.com/chicken_wings.jpg"
+      "image": "https://www.allrecipes.com/thmb/AtViolcfVtInHgq_mRtv4tPZASQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-187822-baked-chicken-wings-4x3-5c7b4624c8554f3da5aabb7d3a91a209.jpg"
     },
     {
       "id": 24,
@@ -220,7 +220,7 @@
       "price": 190,
       "quantity": 0,
       "description": "Creamy risotto rice cooked with mushrooms and parmesan cheese.",
-      "image": "https://example.com/mushroom_risotto.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1c5VDejTTMq7lSiV-rA7-aQiJAL5JFJ3Q_r42FBwZyw&s"
     },
     {
       "id": 25,
@@ -229,7 +229,7 @@
       "price": 350,
       "quantity": 0,
       "description": "Shrimp cooked in garlic butter sauce with white wine and lemon juice.",
-      "image": "https://example.com/shrimp_scampi.jpg"
+      "image": "https://recipes.net/wp-content/uploads/2021/09/shrimp-scampi-olive-garden-recipe-copycat.jpg"
     },
     {
       "id": 26,
@@ -238,7 +238,7 @@
       "price": 130,
       "quantity": 0,
       "description": "Mixed vegetable curry served with buttered bread rolls.",
-      "image": "https://example.com/pav_bhaji.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoEnbEUXnSGaRVDj-nLGwiHcibK5TRiBgJ2F_Y08_aJQ&s"
     },
     {
       "id": 27,
@@ -247,7 +247,7 @@
       "price": 130,
       "quantity": 0,
       "description": "Crispy fried rolls filled with vegetables or meat.",
-      "image": "https://example.com/spring_rolls.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVeu6I8u8IIBlMmnR3a3yu4RfRPY8NGWZKcPDYuD6HqQ&s"
     },
     {
       "id": 28,
@@ -256,7 +256,7 @@
       "price": 250,
       "quantity": 0,
       "description": "Grilled chicken wrapped in pita bread with tahini sauce.",
-      "image": "https://example.com/chicken_shawarma.jpg"
+      "image": "https://i.ytimg.com/vi/KQCUkf6ynMc/maxresdefault.jpg"
     },
     {
       "id": 29,
@@ -265,7 +265,7 @@
       "price": 120,
       "quantity": 0,
       "description": "Sweet carrot pudding cooked with milk and sugar.",
-      "image": "https://example.com/gajar_halwa.jpg"
+      "image": "https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2016/01/Gajar-ka-Halwa-03-1024x683.jpg?resize=1024%2C683"
     },
     {
       "id": 30,
@@ -274,16 +274,16 @@
       "price": 180,
       "quantity": 0,
       "description": "Fried potato and paneer balls cooked in a creamy tomato-based gravy.",
-      "image": "https://example.com/malai_kofta.jpg"
+      "image": "https://static.toiimg.com/thumb/62178678.cms?width=1200&height=900"
     },
     {
       "id": 31,
-      "foodName": "Chicken Curry",
+      "foodName": "Chicken Curry Green",
       "type": "NonVeg",
       "price": 220,
       "quantity": 0,
-      "description": "Spicy chicken curry with aromatic spices.",
-      "image": "https://example.com/chicken_curry.jpg"
+      "description": "Spicy chicken curry with fresh green spices.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdd4l4X1ggWdkTKTcfOAk_Zjf2CcfkS7qZZd1e_mQOKQ&s"
     },
     {
       "id": 32,
@@ -292,7 +292,7 @@
       "price": 160,
       "quantity": 0,
       "description": "Vegetable balls in tangy Chinese sauce.",
-      "image": "https://example.com/veg_manchurian.jpg"
+      "image": "https://vegecravings.com/wp-content/uploads/2017/03/veg-manchurian-dry-recipe-step-by-step-instructions-10.jpg"
     },
     {
       "id": 33,
@@ -301,7 +301,7 @@
       "price": 220,
       "quantity": 0,
       "description": "Spicy, deep-fried chicken appetizer.",
-      "image": "https://example.com/chicken_65.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpOO73i8IVztZwpL6CyCmNbrYzSjH5MpBruqW7ylfYPg&s"
     },
     {
       "id": 34,
@@ -310,16 +310,16 @@
       "price": 150,
       "quantity": 0,
       "description": "Tamarind rice flavored with spices and peanuts.",
-      "image": "https://example.com/puliyodarai.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3AAl9PoYu90O3Cs7mXLkBOiKtdNgeeJjf-xLM4lfVw&s"
     },
     {
       "id": 35,
-      "foodName": "Hyderabadi Biryani",
+      "foodName": "Hyderabadi Mutton Biryani",
       "type": "NonVeg",
       "price": 300,
       "quantity": 0,
       "description": "Fragrant rice cooked with tender meat and aromatic spices.",
-      "image": "https://example.com/hyderabadi_biryani.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSor2nKsc2qyuwUAQ0XP16mJxJv9wuXMxzqllQtgAd8jA&s"
     },
     {
       "id": 36,
@@ -328,7 +328,7 @@
       "price": 130,
       "quantity": 0,
       "description": "Crispy semolina crepe served with chutney and sambar.",
-      "image": "https://example.com/rava_dosa.jpg"
+      "image": "https://www.maggi.in/sites/default/files/srh_recipes/425104d631c6cbb36023a80f63a52bf8.jpg"
     },
     {
       "id": 37,
@@ -337,7 +337,7 @@
       "price": 180,
       "quantity": 0,
       "description": "Deep-fried chicken fritters marinated in spices.",
-      "image": "https://example.com/chicken_pakora.jpg"
+      "image": "https://i.ytimg.com/vi/xlszcRPKDqk/maxresdefault.jpg"
     },
     {
       "id": 38,
@@ -346,7 +346,7 @@
       "price": 100,
       "quantity": 0,
       "description": "Whole wheat bread stuffed with spiced mashed potatoes.",
-      "image": "https://example.com/aloo_paratha.jpg"
+      "image": "https://c.ndtvimg.com/2023-04/oo2r2eb8_aloo-paratha_625x300_28_April_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738"
     },
     {
       "id": 39,
@@ -355,7 +355,7 @@
       "price": 250,
       "quantity": 0,
       "description": "Spiced chicken marinated in yogurt and grilled in a tandoor oven.",
-      "image": "https://example.com/tandoori_chicken.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHDQAkDG8QfH_dJZSPlJwuZygNNMzT3J47eKzTWchrQ&s"
     },
     {
       "id": 40,
@@ -364,7 +364,7 @@
       "price": 320,
       "quantity": 0,
       "description": "Prawns cooked in a spicy coconut milk gravy.",
-      "image": "https://example.com/prawn_curry.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvHg_-7YBLqbWZuJhtLByeTIpU09sjx371RccPsvIOCg&s"
     },
     {
       "id": 41,
@@ -373,7 +373,7 @@
       "price": 90,
       "quantity": 0,
       "description": "Rice pudding cooked with milk and sugar, flavored with cardamom and saffron.",
-      "image": "https://example.com/kheer.jpg"
+      "image": "https://www.honeywhatscooking.com/wp-content/uploads/2020/10/Rice-Kheer-Indian-Rice-Pudding44.jpg"
     },
     {
       "id": 42,
@@ -382,7 +382,7 @@
       "price": 180,
       "quantity": 0,
       "description": "Paneer and peas cooked in a creamy tomato-based gravy.",
-      "image": "https://example.com/matar_paneer.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFb412HFD0oTU0HiNTwDegdWXrz4qJ0TFf0edxQcvp2g&s"
     },
     {
       "id": 43,
@@ -391,7 +391,7 @@
       "price": 280,
       "quantity": 0,
       "description": "Chicken cooked in a rich, creamy sauce with nuts and spices.",
-      "image": "https://example.com/chicken_korma.jpg"
+      "image": "https://food-images.files.bbci.co.uk/food/recipes/chicken_korma_09900_16x9.jpg"
     },
     {
       "id": 44,
@@ -400,7 +400,7 @@
       "price": 100,
       "quantity": 0,
       "description": "Soft, spongy balls of cottage cheese soaked in sweetened milk.",
-      "image": "https://example.com/rasmalai.jpg"
+      "image": "https://www.chefkunalkapur.com/wp-content/uploads/2021/06/Rasmalai-3-1300x867.jpg?v=1625130326"
     },
     {
       "id": 45,
@@ -409,7 +409,7 @@
       "price": 100,
       "quantity": 0,
       "description": "Mixed vegetable patties coated with breadcrumbs and fried.",
-      "image": "https://example.com/vegetable_cutlet.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEhxbL2dCvbY75GusQ6M6lW8aAL_kz6r2XdRgwPdXPLA&s"
     },
     {
       "id": 46,
@@ -418,7 +418,7 @@
       "price": 250,
       "quantity": 0,
       "description": "Fragrant rice cooked with chicken and aromatic spices.",
-      "image": "https://example.com/chicken_pulao.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGb-z5Mol76dqXQA6nN-ha_7q4E57Fp_lBgRV-UJTUkw&s"
     },
     {
       "id": 47,
@@ -427,7 +427,7 @@
       "price": 120,
       "quantity": 0,
       "description": "Mixed fruit salad served with creamy custard.",
-      "image": "https://example.com/fruit_custard.jpg"
+      "image": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/15-june/Recipe_For_Beginners_Fruit_Custard_Recipe_With_Custard_Powder-1.jpg"
     },
     {
       "id": 48,
@@ -436,7 +436,7 @@
       "price": 160,
       "quantity": 0,
       "description": "Stir-fried noodles with mixed vegetables in Hakka style.",
-      "image": "https://example.com/vegetable_hakka_noodles.jpg"
+      "image": "https://myfoodstory.com/wp-content/uploads/2021/02/Vegetable-Hakka-Noodles-Restaurant-Style-3.jpg"
     },
     {
       "id": 49,
@@ -445,7 +445,7 @@
       "price": 280,
       "quantity": 0,
       "description": "Pizza topped with tandoori chicken, onions, and bell peppers.",
-      "image": "https://example.com/chicken_tandoori_pizza.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwsi_fc9nVIEXn_GFezAAUO7jVfe6trR4X9YW3vu4G3w&s"
     },
     {
       "id": 50,
@@ -454,7 +454,7 @@
       "price": 150,
       "quantity": 0,
       "description": "Creamy vanilla ice cream with pieces of gulab jamun.",
-      "image": "https://example.com/gulab_jamun_ice_cream.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD6FO9IU6N4n4NbGYjLdhOK_Veg2Wrxs3pitZiA-Te0A&s"
     }
   ]
 }
