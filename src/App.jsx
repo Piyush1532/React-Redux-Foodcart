@@ -5,6 +5,9 @@ import Home from './Components/home'
 
 import Navbar from './Components/Navbar'
 import Cards from './Components/Cards'
+import FoodCart from './Components/FoodCart'
+
+
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path="/foodcard/:cat_name" element={<Cards/>}/>
+          <Route exact path="/foodCart" element={<FoodCart/>}/>
       </Routes>
     </>
   )
