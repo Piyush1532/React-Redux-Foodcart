@@ -56,7 +56,18 @@ const Navbar = () => {
        {category.name}
     </a>
    </li>
+
  ))}
+  <li className="nav-item" style={{marginLeft :"700px"}}>
+                  <Link className="nav-link position-relative" to="/foodCart">
+                    <i className="bi bi-cart-fill mx-1"></i>
+                    {/* Cart */}
+                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      {/* {cart.length} */}
+                      <span className="visually-hidden">unread messages</span>
+                    </span>
+                  </Link>
+                </li>
     
       </ul>
     </div>

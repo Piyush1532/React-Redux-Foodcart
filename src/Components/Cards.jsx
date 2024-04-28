@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { foodcardList } from './Redux/FoodSlice';
 import { useParams } from 'react-router-dom';
-
+import "./cards.css"
 const Cards = () => {
     const dispatch = useDispatch();
     const { FoodData } = useSelector((state) => state.Food);
@@ -38,24 +38,44 @@ const Cards = () => {
 
 
   return (
-    <div>
+    <>
         <h3>{cat_name}</h3>
     <h1 className='text-center'>Food Cards</h1>
-    <div className="container">
-      <div className="row">
+
+    { <div className="container" >
+      <div className="row" >
         {FoodData.map((food) => (
-          <div className="col-md-4 mb-4" key={food.id}>
-            <div className="card "> 
-              <img src={food.image} className="card-img-top" alt={food.foodName} />
-              <button className='btn btn-primary' >View details</button>
+          <div className="col-md-4 mb-4" key={food.id} >
+            <div className="card  h-100 d-flex flex-column" > 
+              <img src={food.image} className="card-img-top img-fluid" alt={food.foodName} style={{height:"225px"}} />
+              <h6>{food.foodName}</h6>
+              <p> Price:{food.price}</p>
+              <button className='btn btn-primary' >Buy</button>
             </div>
           </div>
         ))}
       </div>
-    </div>
-  </div>
+    </div> }
+    
+  </>
   )
 }
 
 export default Cards
 
+
+
+    {/* <div className="container" style={{height:"500px"}}>
+      <div className="row" >
+        {FoodData.map((food) => (
+          <div className="col-md-4 mb-4" key={food.id} >
+            <div className="card  h-100 d-flex flex-column" > 
+              <img src={food.image} className="card-img-top img-fluid" alt={food.foodName} />
+              <h6>{food.foodName}</h6>
+              <p> Price:{food.price}</p>
+              <button className='btn btn-primary' >View details</button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div> */}
