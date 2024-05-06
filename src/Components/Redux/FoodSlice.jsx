@@ -1,7 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
-
 const Foodslice = createSlice({
     name: "foodslice",
     initialState: {
@@ -18,10 +16,11 @@ const Foodslice = createSlice({
       foodcardList(state, action) {
         state.FoodData = action.payload;
       },
+    
 
-  
+      
     }
   });
   
-  export const { foodCategories, foodcardList } = Foodslice.actions;
+  export const { foodCategories, foodcardList ,handelCart} = Foodslice.actions;
   export default Foodslice;

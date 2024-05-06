@@ -1,10 +1,15 @@
 {
-  "cart":[],
+
   "categories": [
     {"name":"Vegetarian"},
     {"name":"Starter"},
     {"name":"NonVeg"},
     {"name":"Dessert"}],
+    
+   
+
+
+
   "foodData": [
     {
       "id": 1,
@@ -456,5 +461,6 @@
       "description": "Creamy vanilla ice cream with pieces of gulab jamun.",
       "image": "https://aartiatmaram.com/wp-content/uploads/2021/06/Gulab-Jamun-Ice-Cream-scaled.jpg"
     }
-  ]
+  ],
+  "carts":[]
 }

@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { foodcardList } from './Redux/FoodSlice';
+import { foodcardList,handelCart } from './Redux/FoodSlice';
 import { useParams } from 'react-router-dom';
 import "./cards.css"
 const Cards = () => {
+
+  
     const dispatch = useDispatch();
     const { FoodData } = useSelector((state) => state.Food);
     let { cat_name } = useParams(); 
@@ -46,11 +48,17 @@ const Cards = () => {
       <div className="row" >
         {FoodData.map((food) => (
           <div className="col-md-4 mb-4" key={food.id} >
-            <div className="card  h-100 d-flex flex-column" > 
+            <div className="card  h-100 d-flex flex-column"  > 
               <img src={food.image} className="card-img-top img-fluid" alt={food.foodName} style={{height:"225px"}} />
               <h6>{food.foodName}</h6>
               <p> Price:{food.price}</p>
-              <button className='btn btn-primary' >Buy</button>
+              <button className='btn btn-primary' onClick={()=>{
+                let payload={
+                  opt:"add",
+                  food
+                };
+                dispatch(handelCart(payload))
+              }}>Buy</button>
             </div>
           </div>
         ))}

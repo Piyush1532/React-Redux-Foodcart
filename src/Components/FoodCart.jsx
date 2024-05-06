@@ -1,30 +1,106 @@
-import React from 'react'
+
+// import React from 'react';
+// import { useDispatch, useSelector } from 'react-redux';
+// import { cartFunction } from './Redux/FoodSlice';
+
+// const FoodCart = () => {
+//   const {cart} = useSelector(state => state.Food);
+//   const dispatch = useDispatch();
+
+//   const handleAdd = (food) => {
+//     dispatch(cartFunction({ opt: "add", food }));
+//   };
+
+//   const handleRemove = (food) => {
+//     dispatch(cartFunction({ opt: "remove", food }));
+//   };
+
+//   return (
+//     <div className="container mt-5">
+//       <h2 className="mb-4">Food Cart</h2>
+//       <div className="row">
+//         {cart.map((item, index) => (
+//           return(
+//             <div key={index} className="col-md-6 mb-4">
+//             <div className="card">
+//               <img src={item.image} className="card-img-top" alt={item.foodName} />
+//               <div className="card-body">
+//                 <h5 className="card-title">{item.foodName}</h5>
+//                 <p className="card-text">Price: ${item.price}</p>
+//                 <p className="card-text">Type: {item.type}</p>
+//                 <div className="input-group mb-3">
+//                   <div className="input-group-prepend">
+//                     <button className="btn btn-outline-secondary" type="button" onClick={() => handleRemove(item)}>-</button>
+//                   </div>
+//                   <span className="text-primary">
+//                     Quantity: {item.quantity}
+//                   </span>
+//                   <div className="input-group-append">
+//                     <button className="btn btn-outline-secondary" type="button" onClick={() => handleAdd(item)}>+</button>
+//                   </div>
+//                 </div>
+//                 <button className="btn btn-primary btn-block">Buy</button>
+//               </div>
+//             </div>
+//           </div>
+//           )
+         
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default FoodCart;
+
+
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { handelCart } from './Redux/FoodSlice';
 
 const FoodCart = () => {
-  return (
-    <div>
-      <h3 className='text-center'>Food Cart</h3>
+  let { cart } = useSelector(state => state.Food);
+  const dispatch = useDispatch();
 
-      <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="food1.jpg" class="card-img-top" alt="Food 1"/>
-        <div class="card-body">
-          <h5 class="card-title">Food Item 1</h5>
-          <p class="card-text">Price: $10</p>
-          <p class="card-text">Category: Main Course</p>
-          <div class="input-group mb-3">
-            <input type="number" class="form-control" placeholder="Quantity" aria-label="Quantity" aria-describedby="add-btn"/>
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" id="add-btn">Add</button>
+  const handleAdd = (food) => {
+    dispatch(handelCart({ opt: "add", food }));
+  };
+
+  const handleRemove = (food) => {
+    dispatch(handelCart({ opt: "remove", food }));
+  };
+
+  return (
+    <div className="container mt-5">
+      <h2 className="mb-4">Food Cart</h2>
+      <div className="row">
+        {cart.map((item, index) => (
+          <div key={index} className="col-md-6 mb-4">
+            <div className="card">
+              <img src={item.image} className="card-img-top" alt={item.foodName} />
+              <div className="card-body">
+                <h5 className="card-title">{item.foodName}</h5>
+                <p className="card-text">Price: ${item.price}</p>
+                <p className="card-text">Type: {item.type}</p>
+                <div className="input-group mb-3">
+                  <div className="input-group-prepend">
+                    <button className="btn btn-outline-secondary" type="button" onClick={() => handleRemove(food)}>-</button>
+                  </div>
+                  <span className="text-primary">
+                    Quantity: {item.quantity}
+                  </span>
+                  <div className="input-group-append">
+                    <button className="btn btn-outline-secondary" type="button" onClick={() => handleAdd(food)}>+</button>
+                  </div>
+                </div>
+                <button className="btn btn-primary btn-block">Buy</button>
+              </div>
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
-    </div>
-    </div>
-  )
-}
+  );
+};
 
-export default FoodCart
+export default FoodCart;
