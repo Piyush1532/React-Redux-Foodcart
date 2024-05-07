@@ -10,6 +10,7 @@ const Navbar = () => {
 
   let { categories } = useSelector((state) => state.Food);
 
+  let { cart } = useSelector((state) => state.Food);
   
   useEffect(()=>{
     if (categories.length === 0) {
@@ -61,9 +62,9 @@ const Navbar = () => {
   <li className="nav-item" style={{marginLeft :"700px"}}>
                   <Link className="nav-link position-relative" to="/foodCart">
                     <i className="bi bi-cart-fill mx-1"></i>
-                    {/* Cart */}
+                    Cart
                     <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      {/* {cart.length} */}
+                      {cart.length}
                       <span className="visually-hidden">unread messages</span>
                     </span>
                   </Link>

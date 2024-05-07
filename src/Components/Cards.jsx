@@ -10,7 +10,14 @@ const Cards = () => {
     const { FoodData } = useSelector((state) => state.Food);
     let { cat_name } = useParams(); 
 
-
+const addCart=(item)=>{
+console.log(item)
+let payload={
+  opt:"add",
+  item
+}
+dispatch(handelCart(payload))
+}
 
     
     const getfoodData = async () => {
@@ -49,16 +56,10 @@ const Cards = () => {
         {FoodData.map((food) => (
           <div className="col-md-4 mb-4" key={food.id} >
             <div className="card  h-100 d-flex flex-column"  > 
-              <img src={food.image} className="card-img-top img-fluid" alt={food.foodName} style={{height:"225px"}} />
+              <img src={food.image} className="card-img-top img-fluid" alt={food.foodName} style={{width:"100%",backgroundSize:"contain",height:"250px"}} />
               <h6>{food.foodName}</h6>
               <p> Price:{food.price}</p>
-              <button className='btn btn-primary' onClick={()=>{
-                let payload={
-                  opt:"add",
-                  food
-                };
-                dispatch(handelCart(payload))
-              }}>Buy</button>
+              <button className='btn btn-primary' onClick={()=>addCart(food)}>Buy</button>
             </div>
           </div>
         ))}
@@ -73,17 +74,4 @@ export default Cards
 
 
 
-    {/* <div className="container" style={{height:"500px"}}>
-      <div className="row" >
-        {FoodData.map((food) => (
-          <div className="col-md-4 mb-4" key={food.id} >
-            <div className="card  h-100 d-flex flex-column" > 
-              <img src={food.image} className="card-img-top img-fluid" alt={food.foodName} />
-              <h6>{food.foodName}</h6>
-              <p> Price:{food.price}</p>
-              <button className='btn btn-primary' >View details</button>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div> */}
+   
