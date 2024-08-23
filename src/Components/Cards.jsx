@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { foodcardList,handelCart } from './Redux/FoodSlice';
+import { foodcardList,handleCart } from './Redux/FoodSlice';
 import { useParams } from 'react-router-dom';
 import "./cards.css"
 const Cards = () => {
@@ -10,13 +10,13 @@ const Cards = () => {
     const { FoodData } = useSelector((state) => state.Food);
     let { cat_name } = useParams(); 
 
-const addCart=(item)=>{
-console.log(item)
+const addCart=(food)=>{
+// console.log(food)
 let payload={
-  opt:"add",
-  item
+  opt:"Add",
+  food
 }
-dispatch(handelCart(payload))
+dispatch(handleCart(payload))
 }
 
     
@@ -30,7 +30,7 @@ dispatch(handelCart(payload))
           let response = await fetch(url, options);
           let data = await response.json();
           dispatch(foodcardList(data));
-          console.log(data);
+          // console.log(data);
         } catch (error) {
           console.log("Server error:: " + error.message);
         }
