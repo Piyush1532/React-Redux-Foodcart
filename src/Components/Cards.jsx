@@ -14,7 +14,7 @@ const addCart=(food)=>{
 // console.log(food)
 let payload={
   opt:"Add",
-  food
+  food:food
 }
 dispatch(handleCart(payload))
 }
