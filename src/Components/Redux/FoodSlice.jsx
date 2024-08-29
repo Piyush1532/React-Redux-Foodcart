@@ -24,7 +24,7 @@ handleCart(state, action) {
       const isFound = state.carts.findIndex((cartitem) => cartitem.id === action.payload.food.id)
 
       if (isFound > -1) {
-        state.carts[isFound].qty +=1;
+        state.carts[isFound].qty +udpa=1;
       } else {
         let foodproduct = { ...action.payload.food };
         foodproduct["qty"] = 1;
